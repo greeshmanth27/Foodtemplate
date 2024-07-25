@@ -15,7 +15,7 @@
       body {
         height: 200vh;
         margin: 0% 2%;
-        font-family:  sans-serif;
+        font-family: sans-serif;
       }
       .navbar {
         display: flex;
@@ -29,7 +29,7 @@
         top: 0;
         z-index: 2;
       }
-      p {
+      nav p {
         font-size: 26px;
       }
 
@@ -86,11 +86,11 @@
       .contfoot {
         padding: 10px;
       }
-      .footer{
+      .footer {
         z-index: 1;
       }
-      #abt-p{
-        font-weight:10;
+      #abt-p {
+        font-weight: 10;
         opacity: 0.8;
         font-size: 16px;
         line-height: 1.5;
@@ -98,116 +98,198 @@
         margin-left: 1%;
         text-align: center;
       }
-
+      .footbox {
+        width: 100%;
+        padding: 1%;
+      }
+      .mini:hover {
+        background-color: rgb(242, 242, 241);
+      }
+      .footbox input {
+        background-color: #050505;
+        color: rgb(228, 240, 235);
+        padding: 4px;
+        margin: 2px;
+      }
+      .foot2 {
+        display: flex;
+      }
+      a {
+        text-decoration: none;
+      }
     </style>
   </head>
   <body>
     <div class="main">
-    <nav>
-      <div class="navbar">
-        <a href=""
-          ><i
-            class="fa-solid fa-bars"
-            style="color: #050505; font-size: 26px; margin-top: 20px"
-          ></i
-        ></a>
-        <p>My Food</p>
-        <p>Mail</p>
-      </div>
-    </nav>
+      <nav>
+        <div class="navbar">
+          <a href=""
+            ><i
+              class="fa-solid fa-bars"
+              style="color: #050505; font-size: 26px; margin-top: 20px"
+            ></i
+          ></a>
+          <p>My Food</p>
+          <p>Mail</p>
+        </div>
+      </nav>
 
-    <div class="imagegallery">
-      <div class="image">
-        <img src="https://www.w3schools.com/w3images/sandwich.jpg" alt="" />
-        <h3>The Perfect Sandwich, A Real NYC Classic</h3>
-        <p>
-          Just some random text, lorem ipsum text praesent tincidunt ipsum
-          lipsum.
-        </p>
+      <div class="imagegallery">
+        <div class="image">
+          <img src="https://www.w3schools.com/w3images/sandwich.jpg" alt="" />
+          <h3>The Perfect Sandwich, A Real NYC Classic</h3>
+          <p>
+            Just some random text, lorem ipsum text praesent tincidunt ipsum
+            lipsum.
+          </p>
+        </div>
+        <div class="image">
+          <img src="https://www.w3schools.com/w3images/steak.jpg" alt="" />
+          <h3>Let Me Tell You About This Steak</h3>
+          <p>
+            Once again, some random text to lorem lorem lorem lorem ipsum text
+            praesent tincidunt ipsum lipsum.
+          </p>
+        </div>
+        <div class="image">
+          <img src="https://www.w3schools.com/w3images/cherries.jpg" alt="" />
+          <h3>Cherries, interrupted</h3>
+          <p>
+            Lorem ipsum text praesent tincidunt ipsum lipsum. <br /><br />
+            <span style="margin-left: 30%">What else?</span>
+          </p>
+        </div>
+        <div class="image">
+          <img src="https://www.w3schools.com/w3images/wine.jpg" alt="" />
+          <h3>Once Again, Robust Wine and Vegetable Pasta</h3>
+          <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+        <div class="image">
+          <img src="https://www.w3schools.com/w3images/popsicle.jpg" alt="" />
+          <h3>All I Need Is a Popsicle</h3>
+          <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+        <div class="image">
+          <img src="https://www.w3schools.com/w3images/salmon.jpg" alt="" />
+          <h3>Salmon For Your Skin</h3>
+          <p>
+            Once again, some random text to lorem lorem lorem lorem ipsum text
+            praesent tincidunt ipsum lipsum.
+          </p>
+        </div>
+        <div class="image">
+          <img src="https://www.w3schools.com/w3images/sandwich.jpg" alt="" />
+          <h3>The Perfect Sandwich, A Real NYC Classic</h3>
+          <p>
+            Just some random text, lorem ipsum text praesent tincidunt ipsum
+            lipsum.
+          </p>
+        </div>
+        <div class="image">
+          <img src="https://www.w3schools.com/w3images/croissant.jpg" alt="" />
+          <h3>Le French</h3>
+          <p>
+            Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.
+          </p>
+        </div>
       </div>
-      <div class="image">
-        <img src="https://www.w3schools.com/w3images/steak.jpg" alt="" />
-        <h3>Let Me Tell You About This Steak</h3>
-        <p>
-          Once again, some random text to lorem lorem lorem lorem ipsum text
-          praesent tincidunt ipsum lipsum.
-        </p>
+
+      <div class="middle">
+        <a href=""><i class="fa-solid fa-angles-left"></i></a>
+        <a href="">1</a>
+        <a href="">2</a>
+        <a href="">3</a>
+        <a href="">4</a>
+        <a href=""><i class="fa-solid fa-angles-right"></i></a>
       </div>
-      <div class="image">
-        <img src="https://www.w3schools.com/w3images/cherries.jpg" alt="" />
-        <h3>Cherries, interrupted</h3>
-        <p>
-          Lorem ipsum text praesent tincidunt ipsum lipsum. <br /><br />
-          <span style="margin-left: 30%">What else?</span>
-        </p>
+      <div class="footer">
+        <hr style="opacity: 0.5; margin: 5% 0%" />
+        <h2 style="text-align: center; font-weight: 100">
+          About Me, The Food Man
+        </h2>
+
+        <img
+          src="https://www.w3schools.com/w3images/chef.jpg"
+          alt=""
+          class="footerim"
+        />
+        <div class="contfoot">
+          <p style="text-align: center">I am Who I Am!</p>
+          <p id="abt-p">With Passion For Real,Good Food</p>
+          <p id="abt-p">
+            Just me, myself and I, exploring the universe of unknownment. I have
+            a heart of love and an interest of lorem ipsum and mauris neque quam
+            blog. I want to share my world with you. Praesent tincidunt sed
+            tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae,
+            ultricies congue gravida diam non fringilla. Praesent tincidunt sed
+            tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae,
+            ultricies congue gravida diam non fringilla.
+          </p>
+        </div>
+        <hr style="opacity: 0.5" />
       </div>
-      <div class="image">
-        <img src="https://www.w3schools.com/w3images/wine.jpg" alt="" />
-        <h3>Once Again, Robust Wine and Vegetable Pasta</h3>
-        <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-      </div>
-      <div class="image">
-        <img src="https://www.w3schools.com/w3images/popsicle.jpg" alt="" />
-        <h3>All I Need Is a Popsicle</h3>
-        <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-      </div>
-      <div class="image">
-        <img src="https://www.w3schools.com/w3images/salmon.jpg" alt="" />
-        <h3>Salmon For Your Skin</h3>
-        <p>
-          Once again, some random text to lorem lorem lorem lorem ipsum text
-          praesent tincidunt ipsum lipsum.
-        </p>
-      </div>
-      <div class="image">
-        <img src="https://www.w3schools.com/w3images/sandwich.jpg" alt="" />
-        <h3>The Perfect Sandwich, A Real NYC Classic</h3>
-        <p>
-          Just some random text, lorem ipsum text praesent tincidunt ipsum
-          lipsum.
-        </p>
-      </div>
-      <div class="image">
-        <img src="https://www.w3schools.com/w3images/croissant.jpg" alt="" />
-        <h3>Le French</h3>
-        <p>
-          Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.
-        </p>
+      <div class="foot2">
+        <div class="footbox">
+          <h3>FOOTER</h3>
+          <p>
+            Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
+            condimentum, porta lectus vitae, ultricies congue gravida diam non
+            fringilla.
+          </p>
+          <p>Powered by <a href="">Vishnu&Greeshmanth.com</a></p>
+        </div>
+        <div class="footbox">
+          <h3>Blog posts</h3>
+
+          <div class="mini">
+            <div style="display: inline-block; padding: 5px">
+              <img
+                src="https://www.w3schools.com/w3images/workshop.jpg"
+                alt=""
+                width="60px"
+              />
+            </div>
+            <div style="display: inline-block; margin-left: 10px">
+              <p><b>LOREM</b></p>
+              <p>Sed mattis nunc</p>
+            </div>
+          </div>
+
+          <div class="mini">
+            <div style="display: inline-block; padding: 5px">
+              <img
+                src="https://www.w3schools.com/w3images/gondol.jpg"
+                alt=""
+                width="60px"
+              />
+            </div>
+            <div style="display: inline-block; margin-left: 10px">
+              <p><b>Ipsum</b></p>
+              <p>Sed mattis nunc</p>
+            </div>
+          </div>
+        </div>
+        <div class="footbox">
+          <h3>popular tags</h3>
+          <input
+            type="button"
+            value="Travel"
+            style="background-color: #464141"
+          />
+          <input type="button" value="New york" />
+          <input type="button" value="Dinner" />
+          <input type="button" value="Salmon" />
+          <input type="button" value="France" />
+          <input type="button" value="Drinks" />
+          <input type="button" value="Ideas" />
+          <input type="button" value="flowers" />
+          <input type="button" value="vishnu" />
+          <input type="button" value="Greeshmanth" />
+          <input type="button" value="vamsi" />
+          <input type="button" value="sukku" />
+          <input type="button" value="narii" />
+        </div>
       </div>
     </div>
-
-    <div class="middle">
-      <a href=""><i class="fa-solid fa-angles-left"></i></a>
-      <a href="">1</a>
-      <a href="">2</a>
-      <a href="">3</a>
-      <a href="">4</a>
-      <a href=""><i class="fa-solid fa-angles-right"></i></a>
-    </div>
-    <div class="footer">
-      <hr style="opacity: 0.5; margin: 5% 0%;">
-      <h2 style="text-align: center; font-weight: 100;">About Me, The Food Man</h2>
-
-      <img
-        src="https://www.w3schools.com/w3images/chef.jpg"
-        alt=""
-        class="footerim"
-      />
-      <div class="contfoot">
-        <p style="text-align: center; " >I am Who I Am!</p>
-        <p  id="abt-p" >With Passion For Real,Good Food</p>
-        <p id="abt-p">
-          Just me, myself and I, exploring the universe of unknownment. I have a
-          heart of love and an interest of lorem ipsum and mauris neque quam
-          blog. I want to share my world with you. Praesent tincidunt sed tellus
-          ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies
-          congue gravida diam non fringilla. Praesent tincidunt sed tellus ut
-          rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies
-          congue gravida diam non fringilla.
-        </p>
-      </div>
-      <hr style="opacity: 0.5;">
-    </div>
-  </div>
   </body>
 </html>
