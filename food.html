@@ -117,6 +117,93 @@
       a {
         text-decoration: none;
       }
+
+@media screen and (width<450px)
+{
+  .image img {
+        width: 100%;
+        height: 40%;
+      }
+
+      .image > h3 {
+        font-size: 1.2em;
+        font-weight: 400;
+      }
+      .image > p {
+        margin-bottom: -20%;
+        font-size: 0.8em;
+        line-height: 1.2;
+      }
+      .imagegallery {
+        margin-top: 5%;
+        display: grid;
+        padding: 16 8%;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+        gap: 4% 0.5%;
+        margin: 5% 2% 0%;
+      }
+      .middle {
+        margin-top: 20%;
+        text-align: center;
+      }
+      .footerim{
+        width: 90%;
+        margin: 0px;
+
+      }
+      .foot2{
+        display: flex;
+        flex-direction: column;
+      }
+}
+@media screen and (width<375px)
+{
+  .imagegallery {
+        margin-top: 5%;
+        display: grid;
+        padding: 16 8%;
+        grid-template-columns: auto auto ;
+        grid-template-rows: auto auto;
+        gap: 4% 0.5%;
+        margin: 5% 2% 0%;
+      }
+      .middle {
+        margin-top: 55%;
+        text-align: center;
+      }
+}
+
+@media screen and (width<769px){
+  .imagegallery {
+        margin-top: 5%;
+        display: grid;
+        padding: 16 8%;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+        gap: 4% 0.5%;
+        row-gap: 10%;
+        margin: 5% 2% 0%;
+      }
+      .middle {
+        margin-top: 60%;
+        text-align: center;
+      }
+      .footerim{
+        width: 90%;
+        margin: 0px;
+
+      }
+
+}
+
+@media screen and (width<321px){
+  .middle {
+        margin-top: 100%;
+        text-align: center;
+      }
+
+}
     </style>
   </head>
   <body>
